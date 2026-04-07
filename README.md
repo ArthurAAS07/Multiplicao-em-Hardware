@@ -86,9 +86,23 @@ Obtido através do **Quartus**, observando:
 
 ## 📉 Fluxograma
 
-*A ser adicionado*
+O circuito faz sempre a mesma coisa:
+
+1. Começa
+2. Olha o último bit
+
+   * Se for 1 → soma
+3. Desloca para a direita
+4. Repete isso 32 vezes
+5. Termina com o resultado pronto
 
 ---
+
+### 💡 Resumo:
+
+```text
+olha → soma (se precisar) → desloca → repete
+```
 
 ## 🔄 FSM (Máquina de Estados)
 
